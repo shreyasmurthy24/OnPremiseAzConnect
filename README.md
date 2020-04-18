@@ -27,4 +27,5 @@ method.
 Deploy the function app in the last.
 
 Note: Run the Function app first and later run the wpf application. The wpf application is dependent on Az function app.
+
 Note: We can use .Net framework as well for HttpTrigger.
