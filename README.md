@@ -8,6 +8,7 @@ This is a 2 repository application.
 2. OnPremiseAzConnect_2
 
 1. WPF application:
+
 Is a simple WFP applicaiton, which reads the user inputs and connects to the Az Function App. Line # 61, of this projects 
 MainWindow.xaml.cs has a URI. This is a uri of the Az function app. 
 
@@ -18,6 +19,7 @@ This establishes a connectivity between wpf and function app.
 Degugging from line # 65, takes the control to another instance of VS where the function app code is written.
 
 2. Azure Function App:
+
 I added a HttpTrigger, with .Net core framework. This trigger's, Run(..) method captures the information from wpf app, from the 
 parameter HttpRequest req.
 This also inserts the data into ASQL.
