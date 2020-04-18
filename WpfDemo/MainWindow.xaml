@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="177" Margin="162,51,0,0" VerticalAlignment="Top" Width="483">
+            <Label x:Name="label" Content="First Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Width="165" FontSize="20"/>
+            <Label x:Name="label1" Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Width="165" FontSize="20"/>
+            <Label x:Name="label2" Content="Age" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Width="165" FontSize="20"/>
+
+            <TextBox x:Name="txtFName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Margin="150,-100,0,0" FontSize="16"/>
+            <TextBox x:Name="txtLName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Margin="150,-65,0,0" FontSize="16"/>
+            <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Margin="150,-30,0,0" FontSize="16"/>
+
+            <Button x:Name="btnInsert" Content="Insert" HorizontalAlignment="Left" VerticalAlignment="Center" Width="95" Margin="150,10,0,0" Height="25" FontSize="15" Click="BtnInsert_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
