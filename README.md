@@ -6,6 +6,7 @@ WPF --> Az Function App --> ASQL
 This is a 2 repository application.
 1. OnPremiseAzConnect
 2. OnPremiseAzConnect_2
+--------------------------------------------------------------
 
 1. WPF application:
 
